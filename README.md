@@ -19,7 +19,7 @@ if you like this themes fork it dont forget gift star.
 
 also free to contribute making this theme complete, writing scheme json or dark mode etc.
 
-'''
+```
 ├── archetypes
 │   └── default.md
 ├── assets
@@ -77,5 +77,4 @@ also free to contribute making this theme complete, writing scheme json or dark 
 │       ├── logo.svg
 │       └── mawar.png
 └── theme.toml
-
-'''
+```
