@@ -1,0 +1,30 @@
+.cat {
+    padding-top: 20px;
+  }
+.cat h1  {
+    text-align: center;
+}
+.cat h1  a:hover {
+    text-decoration: none;
+}
+.cat a {
+    color: #cdcdcd;
+    text-decoration: none;
+    text-align: center;
+    padding-inline: 15px;
+}
+.header-link {
+    text-align: center;
+    font-size: 18px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}  
+ header li {
+    display: inline;
+}
+.cat a:hover {
+    text-decoration: underline #18b2cc 3px;
+}

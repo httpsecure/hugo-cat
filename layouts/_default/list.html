@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="blog container">
+   <div class="head-blog">
+    <h2>Articles</h2>
+   </div>
+
+<ul class="article-list">
+{{ range (.Paginate .Pages).Pages }}
+<li class="post">      
+    <span>{{ dateFormat "Jan 2, 2006" .Date }} </span> 
+    <a class="blog-title" href="{{ .RelPermalink | safeURL }}">{{.Title | htmlEscape }}</a>
+</li>
+{{ end }}
+ </ul>
+</div>
+{{ partial "paginate.html" . }}
+{{ end }}

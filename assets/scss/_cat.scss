@@ -1,0 +1,27 @@
+body {
+  font-family: 'Andika', sans-serif !important; 
+  background-color: #000;
+  color: #cdcdcd;
+  font-weight: 400;
+}
+a {
+  color: #18b2cc;
+}
+h1 {
+  font-size: 1.6em;
+}
+.highlight {
+  border-radius: 7px;
+}
+code,
+pre,
+kbd {
+  line-height: 154%;
+  overflow: auto;
+  max-width: 100%;
+  padding: 0.2em;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 13px !important;
+}
+

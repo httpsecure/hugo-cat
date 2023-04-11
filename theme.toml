@@ -1,0 +1,19 @@
+name = "Hugo Cat"
+license = "BSD 2-Clause License"
+licenselink = "https://github.com/httpsecure/hugo-cat/blob/main/LICENSE"
+description = "Hugo Blog Portofolio Dark theme CSS only"
+
+# The home page of the theme, where the source can be found.
+homepage = "https://github.com/httpsecure/hugo-cat"
+
+# If you have a running demo of the theme.
+demosite = "https://hugo-cat.pages.dev/"
+
+tags = ["blog", "portofolio", "dark theme"]
+
+
+# If the theme has a single author
+[author]
+    name = "Aziz N"
+    homepage = "https://github.com/httpsecure"
+

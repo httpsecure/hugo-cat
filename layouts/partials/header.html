@@ -1,0 +1,11 @@
+<header>
+     <div class="cat">
+      <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title  | htmlEscape }}</a></h1>
+     
+      <ul class="header-link">
+        {{ range .Site.Menus.main }}
+        <li><a class="link" href="{{ .URL | safeURL }}">{{ .Name | htmlEscape }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+</header>

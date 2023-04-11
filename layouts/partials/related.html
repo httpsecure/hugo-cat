@@ -1,0 +1,15 @@
+<div class="blog container">
+   <div class="head-blog">
+    <h3>Related article</h3>
+   </div>
+<ul class="article-list">
+{{ range first 8 (where .Site.RegularPages "Type" "in" .Site.Params.blogSection ) }}
+	{{ if ne .Permalink $.Permalink }}
+<li class="post">      
+    <span>{{ dateFormat "Jan 2, 2006" .Date }} </span> 
+    <a class="blog-title" href="{{ .RelPermalink | safeURL }}">{{.Title | htmlEscape }}</a>
+</li>
+{{ end }}
+{{ end }}
+ </ul>
+</div>
