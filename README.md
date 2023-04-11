@@ -11,6 +11,6 @@ Hugo v0.111.3
 <img src="https://raw.githubusercontent.com/httpsecure/hugo-cat/main/images/tn.png" width=100% height=100%>
 
 
-this a hugo theme based on and rewrite without bootstrap .
+this a hugo theme based on hugo red rose  and rewrite without bootstrap .
 
 make it your own.
