@@ -39,9 +39,6 @@ also free to contribute making this theme complete, writing scheme json or dark 
 │   │   └── kitty.md
 │   └── contact.md
 ├── hugo.toml
-├── images
-│   ├── screenshot.png
-│   └── tn.png
 ├── layouts
 │   ├── _default
 │   │   ├── baseof.html
@@ -58,23 +55,17 @@ also free to contribute making this theme complete, writing scheme json or dark 
 │       ├── head.html
 │       ├── paginate.html
 │       └── related.html
-├── netlify.toml
-├── README.md
 ├── resources
 │   └── _gen
 │       ├── assets
 │       │   └── scss
-│       │       ├── output
-│       │       
-│       │       
-│       │      
 │       └── images
-├── static
-│   ├── fonts
-│   │   └── andika.woff2
-│   └── img
-│       ├── cat.png
-│       ├── logo.svg
-│       └── mawar.png
-└── theme.toml
+└── static
+    ├── fonts
+    │   └── andika.woff2
+    └── img
+        ├── cat.png
+        ├── logo.svg
+        └── mawar.png
+
 ```
