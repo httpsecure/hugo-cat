@@ -15,9 +15,11 @@ this a hugo theme based on hugo red rose  and rewrite without bootstrap .
 
 make it your own.
 
-if you like this themes fork it dont forget gift star. 
+if you like this themes dont forget ⭐ . 
 
 also free to contribute making this theme complete, writing scheme json or dark mode etc.
+
+i dont know so much about license 😅 for the license is 100% free without footer atribution etc.
 
 ```
 ├── archetypes
